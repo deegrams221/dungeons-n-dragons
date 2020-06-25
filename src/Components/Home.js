@@ -3,10 +3,9 @@ import {Link} from 'react-router-dom';
 
 function Home() {
   return (
-    <div className = 'home'>
+    <div className='home'>
       <h1>Dungeons & Dragons Database</h1>
-      <h3>Character Creation</h3>
-      <Link to = '/classes'>Enter</Link>
+      <h2><Link to='/classes'>Character Creation</Link></h2>
     </div>
   );
 }

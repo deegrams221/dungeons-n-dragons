@@ -12,7 +12,7 @@ function ClassPage(props) {
         <img src={charClass.img} alt={charClass.name} />
       </div>
       <div className='page-links'>
-        <Link to={`/classes/${props.match.params.id}/details`}>Class Details</Link>
+        <Link to={`/classes/${props.match.params.id}/details`}>Class Description</Link>
         <Route path="/classes/:id/details" render={props => <ClassDetails details={charClass.description} />} />
       </div>
     </div>
